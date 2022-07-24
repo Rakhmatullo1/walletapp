@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../models/http_exception.dart';
 import '../providers/auth.dart';
+// aaaa
 
 enum AuthMode {
   login,
@@ -11,6 +12,7 @@ enum AuthMode {
 
 class AuthScreen extends StatefulWidget {
   AuthScreen({Key? key}) : super(key: key);
+
 
   @override
   State<AuthScreen> createState() => _AuthScreenState();
